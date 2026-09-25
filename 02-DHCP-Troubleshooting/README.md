@@ -63,8 +63,8 @@ Powoduje zwolnienie aktualnej dzierżawy DHCP.
 
 Po wykonaniu komendy komputer może stracić:
 
-prawidłowy adres IPv4.
-bramę IPv4.
-dostęp do innych sieci.
+- prawidłowy adres IPv4.
+- bramę IPv4.
+- dostęp do innych sieci.
 
 Podczas laba Windows otrzymał adres APIPA.
