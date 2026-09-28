@@ -50,6 +50,20 @@ Prywatne zakresy IPv4:
 
 APIPA nie należy do standardowych zakresów prywatnych prywatnych RFC1918 (?)
 
+Jeżeli tylko jeden komputer ma problem:
+- kabel
+- port
+- karta sieciowa
+- sterownik
+- konfiguracja klienta
+- usługa DHCP Client
+
+Jeżeli wielu użytkowników ma podobny problem:
+- serwer DHCP
+- switch
+- VLAN
+- infrastruktura sieciowa
+
 # PING
 
 Podstawowa kolejność testów:
