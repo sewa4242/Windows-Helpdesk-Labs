@@ -63,9 +63,9 @@ Powoduje zwolnienie aktualnej dzierżawy DHCP.
 
 Po wykonaniu komendy komputer może stracić:
 
--prawidłowy adres IPv4
--bramę IPv4
--dostęp do innych sieci
+- prawidłowy adres IPv4
+- bramę IPv4
+- dostęp do innych sieci
 
 Podczas laba Windows otrzymał adres APIPA.
 
@@ -74,13 +74,13 @@ Podczas laba Windows otrzymał adres APIPA.
 Klient próbuje ponownie uzyskać konfigurację z serwera DHCP.
 Po poprawnym odnowieniu powinny wrócić m.in.:
 
--IPv4
--Subnet Mask
--Default Gateway
--DNS
--DHCP Server
--Lease Obtained
--Lease Expires
+- IPv4
+- Subnet Mask
+- Default Gateway
+- DNS
+- DHCP Server
+- Lease Obtained
+- Lease Expires
 
 Nie ma gwarancji, że komputer zawsze otrzyma dokładnie ten sam adres IPv4.
 
@@ -89,10 +89,10 @@ Nie ma gwarancji, że komputer zawsze otrzyma dokładnie ten sam adres IPv4.
 `devmgmt.msc` = Menadżer urządzeń
 
 Sprawdzam:
--czy karta sieciowa jest widoczna
--czy jest włączona
--czy sterownik działa poprawnie
--czy nie występują błędy urządzenia
+- czy karta sieciowa jest widoczna
+- czy jest włączona
+- czy sterownik działa poprawnie
+- czy nie występują błędy urządzenia
 
 Brak błędów w Menedżerze urządzeń nie daje 100% pewności, że sprzęt jest sprawny.
 
@@ -104,8 +104,8 @@ Warto sprawdzić usługę:
 - Klient DHCP
 
 Przykładowy problem:
--Status: Stopped
--Startup type: Disabled
+- Status: Stopped
+- Startup type: Disabled
 
 Jeżeli polityka firmy na to pozwala, należy przywrócić prawidłową konfigurację usługi i ponownie spróbować: `ipconfig /renew`
 
